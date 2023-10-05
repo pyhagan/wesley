@@ -1,0 +1,233 @@
+.login{
+    width: 400px;
+    height: 650px;
+    position: relative;
+    top: 0px;
+    background-color:white;
+    left: 500px;
+    border-radius: 30px;
+    align-items: center;
+    justify-content: center; 
+    padding: 5px;  
+
+}
+.intro{
+    position: relative;
+    font-weight: 500;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    top: 10px;
+    left: 120px;
+}
+#fname{
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-family: sans-serif;
+    width: 250px ;
+    height: 36px;
+    border-radius: 15px;
+    padding-left: 5px;
+    border-width: 1px;
+    box-shadow: 0px 1px 1px rgba(2, 0, 0, 0.1);
+}
+#surname{
+    position: relative;
+    top: 50px;
+    left: 10px;
+    font-family: sans-serif;
+    width: 250px ;
+    height: 36px;
+    border-radius: 15px;
+    padding-left: 5px;
+    border-width: 1px;
+    box-shadow: 0px 1px 1px rgba(2, 0, 0, 0.1);
+}
+#dob{
+    position: relative;
+    top: 80px;
+    left: 10px;
+    font-family: sans-serif;
+    width: 250px ;
+    height: 36px;
+    border-radius: 15px;
+    padding-left: 5px;
+    border-width: 1px;
+    box-shadow: 0px 1px 1px rgba(2, 0, 0, 0.1);
+}
+.gender{
+    position: relative;
+    top: 100px;
+    left: 10px;
+    font-family: sans-serif;
+}
+.lmale{
+    position: relative;
+    top: 100px;
+    left: 15px;
+    font-family: sans-serif;
+}
+#male{
+position: relative;
+top: 100px;
+left: 15px;
+}
+.lfemale{
+    position: relative;
+    top: 100px;
+    left: 15px;
+    font-family: sans-serif;
+}
+#female{
+    position: relative;
+    top: 100px;
+    left: 15px;
+}
+#phone{
+    position: relative;
+    top: 120px;
+    left: 10px;
+    font-family: sans-serif;
+    width: 250px ;
+    height: 36px;
+    border-radius: 15px;
+    padding-left: 5px;
+    border-width: 1px;
+    box-shadow: 0px 1px 1px rgba(2, 0, 0, 0.1);
+}
+
+
+#password{
+    position: relative;
+    top: 150px;
+    left: 10px;
+    font-family: sans-serif;
+    width: 250px ;
+    height: 36px;
+    border-radius: 15px;
+    padding-left: 5px;
+    border-width: 1px;
+    box-shadow: 0px 1px 1px rgba(2, 0, 0, 0.1);
+}
+#cpassword{
+    position: relative;
+    top: 180px;
+    left: 10px;
+    font-family: sans-serif;
+    width: 250px ;
+    height: 36px;
+    border-radius: 15px;
+    padding-left: 5px;
+    border-width: 1px;
+    box-shadow: 0px 1px 1px rgba(2, 0, 0, 0.1);
+}
+#checkbox{
+    position: relative;
+    top: 230px;
+    left: 10px;
+
+}
+
+.label{
+    position: relative;
+    top: 230px;
+    left: 10px;
+    font-family: sans-serif;
+}
+.l1{
+    text-decoration: none;
+    color: blue;
+}
+.l2{
+    text-decoration: none;
+    color: blue;
+}
+
+.signup{
+    position: relative;
+    left:50px;
+    top: 230px;
+    border-radius: 15px;
+    width:250px;
+    height:36px;
+    background-color: blue;
+    border-width: 0px;
+    color:white;
+    font-size: 15px;
+}
+.l4{
+    text-decoration: none;
+    color: blue; 
+    font-family: sans-serif;
+    position: relative;
+}
+.ques{
+    position: relative;
+    left:50px;
+    top: 260px;
+    font-family: sans-serif;
+    
+}
+#fname-error{
+    position: relative;
+    top:50px;
+    right:250px;
+    font-size: 14px;
+    color: red;
+}
+#surname-error{
+    position: relative;
+    top:80px;
+    right: 250px;
+    font-size: 14px;
+    color: red;
+}
+#dob-error{
+    position: relative;
+    top:110px;
+    right: 250px;
+    font-size: 14px;
+    color: red;
+}
+#radio-error{
+    position: absolute;
+    top:300px;
+    left: 20px;
+    font-size: 14px;
+    color: red;
+}
+
+
+#phone-error{
+    position: absolute;
+    top:330px;
+    left: 20px;
+    font-size: 14px;
+    color: red;
+
+}
+#password-error{
+    position: absolute;
+    top:400px;
+    left: 20px;
+    font-size: 14px;
+    color: red;
+}
+#cpassword-error{
+    position: absolute;
+    top:470px;
+    left: 20px;
+    font-size: 14px;
+    color: red;
+}
+#submit-error{
+    position: absolute;
+    top:610px;
+    left: 60px;
+    font-size: 14px;
+    color: red;
+}
+i{
+    color: seagreen;
+}
