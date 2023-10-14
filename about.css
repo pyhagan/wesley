@@ -16,6 +16,7 @@ body{
     width: 1400px;
     max-width: 95%;
     margin: 0 auto;
+    background-color: transparent;
    
 }
 .container{
@@ -55,6 +56,10 @@ nav ul li a:hover,
 nav ul li a:focus{
     border-bottom:2px solid white ;
 }
+#intro{
+    color: white;
+    padding: 0 20%;
+}
 .msg{
     font-family:sans-serif;
     text-align: center;
@@ -75,8 +80,42 @@ nav ul li a:focus{
     
     
 }
+
 .jw{
     position: relative;
-    left: 20px;
-    width: 250px;
+    left: 40%;
+    width: 200px;
+    
+}
+div{
+    padding: 10px;
+    background-color: white;
+    
+}
+#logo{
+    color: black;
+    background-color: transparent;
+}
+p{
+    color: black;
+}
+h2{
+    color: black;
+}
+h1{
+    color: black;
+}
+#map{
+    height: 150px;
+    width: 100;
+    float:inline-start;
+}
+#gold{
+    height: 150px;
+    width: 100;
+    float: right;
+}
+#mlogo{
+    height: 150px;
+    width: 100;
 }

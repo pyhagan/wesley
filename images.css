@@ -1,0 +1,23 @@
+#box{
+    justify-content: space-between;
+    position: absolute;
+    padding-left: 8%;
+}
+#imgs{
+    height: 250px;
+    width: 250px;
+    border-radius: 15px;
+
+   
+}
+#imgs:hover{
+    
+    border: 3px solid goldenrod;
+    height: 500px;
+    width: 25%;
+    
+}
+#logo{
+    height: 70px;
+     height: 50px;
+}
