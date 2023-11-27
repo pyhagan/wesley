@@ -119,3 +119,52 @@ h1{
     height: 150px;
     width: 100;
 }
+#part1{
+    width: 50%;
+    
+}
+   
+
+#part2{
+    width: 50%;
+    
+}
+.about{
+    display: inline-flex;
+}
+#div1{
+    border-radius: 15px;
+    border: 2px solid grey;
+}
+#div1:hover{
+    background-color: goldenrod;
+    border: 0px ;
+    
+}
+#div2{
+    border-radius: 15px;
+    position: relative;
+    top: 30px;
+    border: 2px solid grey;
+}
+#div2:hover{
+    background-color: goldenrod;
+    border: 0px ;
+}
+#div3{
+    border-radius: 15px;
+    position: relative;
+    top: 60px;
+    border: 2px solid grey;
+    
+}
+#div3:hover{
+    background-color: goldenrod;
+    border: 0px ;
+}
+.text{
+    border-radius: 15px;
+}
+#history{
+    border-radius: 15px;
+}

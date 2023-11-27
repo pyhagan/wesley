@@ -3,8 +3,9 @@
     height: 450px;
     position: relative;
     top: 20px;
-    background-color:white;
-    left: 600px;
+    background-color: transparent;
+    background-size: contain;
+    left: 40%;
     border-radius: 30px;
     padding: 10px;
     align-items: center;
@@ -18,8 +19,18 @@
     font-weight: bold;
     font-family:Arial, Helvetica, sans-serif;
     top: 20px;
-    left: 120px;
+    left: 130px;
+    color: white;
 }
+@media screen and (max-width: 800px) {
+    .login{
+      left: 5%;
+
+    }
+    .intro{
+        font-size: 20px;
+    }
+  }
 
 .phone{
     position: relative;
@@ -27,7 +38,7 @@
     left: 50px;
     font-family: sans-serif;
     width: 250px ;
-    height: 36px;
+    height: 50px;
     border-radius: 15px;
     padding: 5px;
     border-width: 1px;
@@ -40,7 +51,7 @@
     left:50px;
     font-family: sans-serif;
     width: 250px ;
-    height: 36px;
+    height: 50px;
     border-radius: 15px;
     padding: 5px;
     border-width: 1px;
@@ -48,15 +59,18 @@
 }
 #btn1{
     position: relative;
-    top: 100px;
+    top: 130px;
     left: 50px;
     width: 260px;
     height: 50px;
     border-radius: 15px;
     padding: 5px;
-    border-width: 1px;
-    background-color:blue;
+    border-width: 0px;
+    background-color:grey;
     color: white;
+}
+#btn1:hover{
+    background-color: navy;
 }
 
 .reset{
@@ -69,25 +83,25 @@
 }
 #phone-error{
     position: absolute;
-    top:145px;
+    top:170px;
     left: 60px;
     font-size: 14px;
-    color: red;
+    color:  wheat;
 
 }
 #password-error{
     position: absolute;
-    top:220px;
+    top:250px;
     left: 60px;
     font-size: 14px;
-    color: red;
+    color: wheat;
 }
 #submit-error{
     position: absolute;
     top:290px;
     left: 60px;
     font-size: 14px;
-    color: red;
+    color:  wheat;
 }
 i{
     color: seagreen;
@@ -97,5 +111,12 @@ i{
     top:380px;
     left: 60px;
     font-size: 20px;
+    color: red;
+}
+#link{
+    color:white;
+    text-decoration: none;
+}
+#link:hover{
     color: red;
 }

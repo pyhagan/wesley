@@ -3,6 +3,10 @@ var passwordError = document.getElementById('password-error');
 var submitError = document.getElementById('submit-error');
 var loginError = document.getElementById('login-error')
 
+function Redirect(){
+  window.location="wesley/main.html"
+}
+
 function validatePhone(){
   var phone = document.getElementById('phone').value; 
   
